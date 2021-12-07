@@ -1,0 +1,135 @@
+body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(231, 231, 231);
+}
+
+.container {
+    border-radius: 5px;
+    padding-left: 40px;
+}
+
+.col-4 {
+    float: left;
+    width: 33%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.box-content {
+    border: rgb(0, 0, 0);
+    float: left;
+    border: 0.5px solid #dbdbdb;
+    border-radius: 10px;
+    padding: 30px 30px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 1200px) {
+    .col-4 {
+        width: 50%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .col-4 {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+#box-content {
+    border: rgb(0, 0, 0);
+    float: left;
+    border: 0.5px solid #dbdbdb;
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+
+#conten-1 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#icon1 {
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+#com {
+    /* float: left; */
+    width: 200px;
+    padding-right: 40px;
+    display: inline-block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 20px;
+}
+
+#pen1 {
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+#conten-2 {
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+#table {
+    /* border: 1px solid rgb(153, 153, 153); */
+    /* border-collapse: collapse; */
+    text-align: center;
+    overflow: auto;
+    min-height: 151px;
+}
+
+#tableCompany,
+tr,
+th {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+}
+
+#tableCompany,
+tr,
+td {
+    border-bottom: none;
+    border-left: none;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
+
+#conten-3 {
+    padding: 20px 10px 0px 170px;
+}
+
+#add {
+    background-color: rgb(163, 163, 163);
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    margin-left: 25px;
+    border-radius: 10px;
+    border: 0.5px solid #dbdbdb;
+    text-align: center;
+    display: inline-block;
+    min-width: 106.72px;
+}
